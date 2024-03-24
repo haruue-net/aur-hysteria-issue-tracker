@@ -8,12 +8,11 @@ This repository serves as an issue tracker for the following AUR packages:
 + [hysteria1][3]
 + [hysteria1-bin][4]
 
-Should you have any suggestions for the maintenance of the above AUR packages,
-or if you would like to contribute patches to the PKGBUILDs we maintain, please
-share them with us by [creating a new issue][5].
+Should you have any suggestions or questions for the maintenance of the above
+AUR packages, please share them with us by [creating a new issue][5].
 
-Please note that this repository itself is not an open-source software
-repository, nor does it contain any source code.
+If you would like to submit a patch for the PKGBUILDs we maintain, you are
+welcome to [submit a Pull Request][6] to the corresponding branch.
 
 ----------
 
@@ -24,10 +23,11 @@ repository, nor does it contain any source code.
 + [hysteria1][3]
 + [hysteria1-bin][4]
 
-如果您对上述 AUR 包的维护有任何建议或者希望为我们维护的 PKGBUILD 提供补丁，
+如果您对上述 AUR 包的维护有任何建议， 或者在使用中遇到了问题， 
 请通过 [创建新 Issue][5] 来将其分享给我们。
 
-本仓库自身并非开源软件仓库， 其不包含任何源代码。
+如果您希望对我们维护的 PKGBUILD 提交补丁，
+您可以直接向对应的分支 [提交 Pull Request][6]。
 
 
 [1]: https://aur.archlinux.org/packages/hysteria
@@ -35,3 +35,4 @@ repository, nor does it contain any source code.
 [3]: https://aur.archlinux.org/packages/hysteria1
 [4]: https://aur.archlinux.org/packages/hysteria1-bin
 [5]: https://github.com/haruue-net/aur-hysteria-issue-tracker/issues/new
+[6]: https://github.com/haruue-net/aur-hysteria-issue-tracker/pulls
