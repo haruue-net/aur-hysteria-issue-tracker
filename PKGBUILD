@@ -11,6 +11,8 @@ url='https://hysteria.network/'
 license=('MIT')
 provides=('hysteria')
 conflicts=('hysteria')
+optdepends=('v2ray-rules-dat: geoip/geosite data originating from V2Ray'
+            'meta-rules-dat: geoip/geosite data originating from MetaCubeX')
 install=$_pkgbase.install
 source=("$_pkgbase-$pkgver-$pkgrel-linux-amd64::https://github.com/apernet/hysteria/releases/download/app/v$pkgver/hysteria-linux-amd64"
         "$_pkgbase-$pkgver-$pkgrel-LICENSE.md::https://raw.githubusercontent.com/apernet/hysteria/app/v$pkgver/LICENSE.md"
