@@ -1,7 +1,7 @@
 pkgbase = hysteria
 	pkgdesc = A powerful, lightning fast and censorship resistant proxy
 	pkgver = 2.4.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://hysteria.network/
 	install = hysteria.install
 	arch = x86_64
@@ -9,6 +9,8 @@ pkgbase = hysteria
 	makedepends = go
 	makedepends = git
 	depends = glibc
+	optdepends = v2ray-rules-dat: geoip/geosite data originating from V2Ray
+	optdepends = meta-rules-dat: geoip/geosite data originating from MetaCubeX
 	source = hysteria-git::git+https://github.com/apernet/hysteria.git#tag=app/v2.4.0
 	source = hysteria@.service
 	source = hysteria-server@.service
