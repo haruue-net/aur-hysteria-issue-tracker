@@ -10,7 +10,9 @@ url="https://hysteria.network/"
 license=('MIT')
 depends=('glibc')
 makedepends=('go' 'git' 'sed' 'grep')
-optdepends=('v2ray-rules-dat: geoip/geosite data originating from V2Ray'
+
+optdepends=('v2ray-domain-list-community: geoip data originating from V2Ray'
+            'v2ray-geoip: geosite data originating from V2Ray'
             'meta-rules-dat: geoip/geosite data originating from MetaCubeX')
 source=("$_pkgbase-git"::"git+https://github.com/apernet/hysteria.git#tag=app/v$pkgver"
         hysteria@.service

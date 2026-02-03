@@ -10,7 +10,8 @@ pkgbase = hysteria
 	makedepends = sed
 	makedepends = grep
 	depends = glibc
-	optdepends = v2ray-rules-dat: geoip/geosite data originating from V2Ray
+	optdepends = v2ray-domain-list-community: geoip data originating from V2Ray
+	optdepends = v2ray-geoip: geosite data originating from V2Ray
 	optdepends = meta-rules-dat: geoip/geosite data originating from MetaCubeX
 	source = hysteria-git::git+https://github.com/apernet/hysteria.git#tag=app/v2.6.5
 	source = hysteria@.service
